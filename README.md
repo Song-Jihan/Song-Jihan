@@ -2,7 +2,7 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:2F81F7&height=190&section=header&text=Song%20Jihan&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Backend%20Developer%20%7C%20AI%20Service%20Integration&descAlignY=60&descSize=18)
 
-## 안녕하세요, 백엔드 개발자 송지한입니다.
+## 안녕하세요, 백엔드 개발 지망생 송지한입니다.
 
 **AI 서비스를 안정적으로 연결하는 백엔드 시스템**에 관심이 있습니다.
 
