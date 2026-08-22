@@ -130,7 +130,7 @@ AI 서버의 평가 결과와 JSON-LD 개선안을 저장하여 사용자에게 
 
 ### 5060세대 잠재소비 분석
 
-> **2026 | 서울시 빅데이터 분석 팀 프로젝트**
+> **2026.06 | 서울시 빅데이터 분석 팀 프로젝트**
 
 5060세대가 높은 자산과 소비 규모를 보유하고 있음에도  
 평균소비성향이 낮게 나타나는 원인을 데이터로 분석한 프로젝트입니다.
@@ -176,6 +176,7 @@ AI 서버의 평가 결과와 JSON-LD 개선안을 저장하여 사용자에게 
 > 자료구조와 알고리즘 문제 풀이 기록
 
 - [Algorithm-Study Repository](https://github.com/Song-Jihan/Algorithm-Study)
+- [solved.ac / BaekJoon](https://solved.ac/profile/withsjh0417)
 
 ---
 
