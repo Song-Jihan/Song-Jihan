@@ -9,7 +9,8 @@
 단순히 API를 구현하는 것을 넘어  
 도메인 상태, 트랜잭션 경계, 비동기 작업, 실패 복구를 함께 고민합니다.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Song--Jihan-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Song-Jihan)
+[![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/Song-Jihan)](https://github.com/Song-Jihan)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/%EC%A7%80%ED%95%9C-%EC%86%A1-b01334308/)]([https://www.linkedin.com/in/seong-yun-byeon-8183a8113/](https://www.linkedin.com/in/%EC%A7%80%ED%95%9C-%EC%86%A1-b01334308/)) 
 
 </div>
 
