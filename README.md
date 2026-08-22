@@ -11,8 +11,9 @@
 
 [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/Song-Jihan)](https://github.com/Song-Jihan)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/%EC%A7%80%ED%95%9C-%EC%86%A1-b01334308/)]([https://www.linkedin.com/in/seong-yun-byeon-8183a8113/](https://www.linkedin.com/in/%EC%A7%80%ED%95%9C-%EC%86%A1-b01334308/))
-https://velog.io/@songjihan/posts
-  
+
+![Velog GitHub stats](https://velog-github-badge.vercel.app/badge/songjihan)
+
 </div>
 
 ---
