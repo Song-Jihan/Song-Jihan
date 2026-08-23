@@ -109,7 +109,7 @@ AI 서버의 평가 결과와 JSON-LD 개선안을 저장하여 사용자에게 
 
 `Java 21` `Spring Boot` `Spring Security` `Spring Data JPA`  
 `PostgreSQL` `H2` `JWT` `OAuth2`  
-`Jsoup` `Playwright` `REST API` `JSON-LD` `Docker`
+`Jsoup` `Playwright` `JSON-LD` `Docker`
 
 ---
 
