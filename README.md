@@ -88,49 +88,78 @@
 
 ---
 
-## Project Experience
+## 📚 Projects
 
-### Mal-Geum — GEO 기반 AI 검색 최적화 SaaS
+### GEOmini — AI 검색 최적화 SaaS
 
-> **2026.03 ~ 진행 중 | Backend Developer**  
-> 캡스톤디자인 및 SW상상기업 팀 프로젝트
+> **2026.03 ~ 현재 | 캡스톤디자인·SW상상기업 | 팀 대표·백엔드**
 
-웹사이트의 HTML 구조와 JSON-LD 데이터를 분석하고,  
-생성형 AI가 이해하기 쉬운 구조로 개선할 수 있도록 진단 리포트를 제공하는 SaaS입니다.
+URL에서 본문·메타데이터·JSON-LD를 수집하고, AI 진단 결과와 구조화 데이터 개선안을 제공하는 서비스입니다.
 
-사용자가 URL 분석을 요청하면 백엔드에서 웹페이지를 수집하고,  
-AI 서버의 평가 결과와 JSON-LD 개선안을 저장하여 사용자에게 제공합니다.
+- **담당:** API·DB 설계, Google OAuth2·JWT 인증, 웹페이지 수집과 AI 서버 연동
+- **주요 구현:** DB 작업 큐 기반 비동기 분석·재시도, 비관적 잠금과 트랜잭션을 통한 이용권 차감, 개선 전후 재평가
 
-#### Repository
+`Java 21` `Spring Boot` `JPA` `PostgreSQL` `Flyway` `Jsoup` `Playwright`
 
-- [Backend Repository](https://github.com/Virtual-Company-Mal-Geum/backend)
+[GitHub](https://github.com/Virtual-Company-Mal-Geum/backend) · [서비스](https://virtual-company-mal-geum.github.io/frontend/) · [시연 영상](https://www.youtube.com/watch?v=Nuw_cNghpzQ)
 
-#### Tech Stack
+### FolioLens — 근거를 제시하는 공시 질의응답 Agent
 
-`Java 21` `Spring Boot` `Spring Security` `Spring Data JPA`  
-`PostgreSQL` `H2` `JWT` `OAuth2`  
-`Jsoup` `Playwright` `JSON-LD` `Docker`
+> **2026.07 ~ 2026.09 | 미래에셋증권 AI Festival | 백엔드·AI Agent 오케스트레이션**
+
+공시에서 질문에 필요한 사실을 검색·비교·계산하고, 원문 근거와 정보의 한계를 함께 제시하는 AI Agent입니다.
+
+- **담당:** Spring 기반 Agent 오케스트레이션, 평가 API, 답변 검증 및 제출 서버 배포
+- **주요 구현:** LLM 실행 계획 검증, 답변의 수치·근거 대조, 전체 처리 시간 제한과 재시도 제어
+
+`Java 21` `Spring Boot` `PostgreSQL` `HyperCLOVA X` `Docker`
+
+[GitHub](https://github.com/portfolio-disclosure-guardian/foliolens-server) · [역할·설계](https://github.com/portfolio-disclosure-guardian/foliolens-server/blob/develop/docs/role-a/ROLE_A_SPEC.md) · [검증 구현 기록](https://github.com/portfolio-disclosure-guardian/foliolens-server/blob/develop/docs/role-a/A7_COMPLETION_REPORT.md)
+
+### BudgEats SG — 싱가포르 예산 기반 식당 추천
+
+> **2026.08 | 싱가포르 보안 연수·4인·5일 스프린트 | 백엔드**
+
+싱가포르를 방문한 한국 학생을 위해 가격대별 식당 지도와 예산에 맞춘 식사 일정을 제공하는 웹서비스입니다.
+
+- **담당:** Google 로그인·Places API 연동, 사용자·리뷰 모델, 가격 집계와 예산 일정 API
+- **주요 구현:** 실제 지출액을 활용한 가격 등급 산정, HttpOnly 서명 쿠키 세션과 리뷰 작성자 검증
+
+`Java 21` `Spring Boot` `JPA` `H2` `Google Places API`
+
+[GitHub](https://github.com/Ctrl-Alt-Defend-KR/budgeats-sg/tree/develop) · [요구사항 명세](https://github.com/Ctrl-Alt-Defend-KR/budgeats-sg/blob/develop/docs/SRS.md)
 
 ---
 
-### 5060세대 잠재소비 분석
+## 🏆 Awards & Research
 
-> **2026.06 | 서울시 빅데이터 분석 팀 프로젝트**
+| 날짜 | 대회 | 수상 |
+| --- | --- | --- |
+| 2026.10.02 | 2026 AI-Powered SW상상기업 경진대회 · 경기대학교 SW중심대학사업단 | **장려상** · Mal-Geum팀(GEOmini) |
+| 2026.06.10 | 한국정보기술학회 2026 하계종합학술대회 및 대학생논문경진대회 | **🥇금상** · [수상 안내](https://ki-it.or.kr/board/maininfo/article/277150) |
 
+**논문:** [LLM의 인용 가능성을 높이는 콘텐츠 구조화 기법: GEO 전략의 실험적 검증](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12901308)
 
-#### Tech Stack
+## 🌍 Experience
 
-`Python` `Pandas` `Matplotlib` `Excel` `Public Data Analysis`
+### 2026 시큐어코딩 해외연수 — 싱가포르
+
+> **2026.08.11 ~ 2026.08.21 | 경기대학교 SW중심대학사업단 주관**
+
+- 위협 모델링, 인증·인가, 클라우드·소프트웨어 공급망 보안 교육과 Burp Suite 웹 보안 실습
+- AWS·현대자동차 싱가포르 글로벌 혁신센터(HMGICS) 방문 및 현직자 간담회
+- 팀 프로젝트 BudgEats SG 개발 및 성과 발표
+
+[연수 소개](https://www.etnews.com/20260825000344)
+· [교내 인터뷰](https://swuniv.kyonggi.ac.kr/community/boardDetail?seq=1734&nowPage=1&searchType=title&searchText=%EC%86%A1%EC%A7%80%ED%95%9C#none)
 
 ---
 
-### Algorithm Study
+## 🧠 Algorithm Study
 
-> 자료구조와 알고리즘 문제 풀이 기록
+자료구조와 알고리즘 문제 풀이를 기록하고 있습니다.
 
-- [Algorithm-Study Repository](https://github.com/Song-Jihan/Algorithm-Study)
-- [solved.ac / BaekJoon](https://solved.ac/profile/withsjh0417)
-
+[GitHub](https://github.com/Song-Jihan/Algorithm-Study) · [solved.ac / Baekjoon](https://solved.ac/profile/withsjh0417)
 ---
 
 </div>
