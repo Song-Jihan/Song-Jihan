@@ -92,7 +92,7 @@
 
 ### GEOmini — AI 검색 최적화 SaaS
 
-> **2026.03 ~ 현재 | 캡스톤디자인·SW상상기업 | 팀 대표·백엔드**
+> **2026.03 ~ 현재 | 2026 기초캡스톤디자인· 2026 SW상상기업 | 팀 대표·백엔드**
 
 URL에서 본문·메타데이터·JSON-LD를 수집하고, AI 진단 결과와 구조화 데이터 개선안을 제공하는 서비스입니다.
 
@@ -128,6 +128,18 @@ URL에서 본문·메타데이터·JSON-LD를 수집하고, AI 진단 결과와 
 `Java 21` `Spring Boot` `JPA` `H2` `Google Places API`
 
 [GitHub](https://github.com/Ctrl-Alt-Defend-KR/budgeats-sg/tree/develop) · [요구사항 명세](https://github.com/Ctrl-Alt-Defend-KR/budgeats-sg/blob/develop/docs/SRS.md)
+
+### 5060세대 소비 위축 요인 분석
+
+> **2026.05 ~ 2026.06 | [KOSSDA 대학생 공모전 2026](https://www.kossdadatafair.com/contest2026) | 공공데이터 분석·시각화**
+
+공공 통계를 활용해 5060세대의 소비·소득·자산 구조와 소비 위축 관련 요인을 비교·검토한 데이터 분석 프로젝트입니다.
+
+- **담당:** 의료비 지출·건강 인식 자료 분석, pandas 기반 데이터 정리, Matplotlib 시각화 및 발표 자료 제작
+
+`Python` `pandas` `Matplotlib`
+
+[최종 발표 자료](https://docs.google.com/presentation/d/1CXlcOTMg5_JDELOClpVanyHyA_Ym0TWGzI_62TZ5WKI/edit?usp=sharing)
 
 ---
 
